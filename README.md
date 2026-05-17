@@ -1,10 +1,10 @@
-# 🧮 Mathematical Equation Visualizer (MEV)
+# Mathematical Equation Visualizer (MEV)
 
 A powerful, interactive web application for symbolic math analysis and function visualization — built with Python, Streamlit, and Plotly.
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 MEV/
@@ -15,18 +15,18 @@ MEV/
 
 ---
 
-## ✨ Features
+## Features
 
-- 🔣 Symbolic computation powered by **SymPy**
-- 📈 Interactive plots powered by **Plotly**
-- 🧠 Step-by-step procedural explanations tailored to function type
-- ⚡ Real-time analysis for two simultaneous functions `f(x)` and `g(x)`
-- 🎯 Supports polynomials, trigonometric, exponential, and logarithmic functions
-- 🔢 Configurable plot range (`x_min` to `x_max`)
+- Symbolic computation powered by **SymPy**
+- Interactive plots powered by **Plotly**
+- Step-by-step procedural explanations tailored to function type
+- Real-time analysis for two simultaneous functions `f(x)` and `g(x)`
+- Supports polynomials, trigonometric, exponential, and logarithmic functions
+- Configurable plot range (`x_min` to `x_max`)
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 | Technology | Role |
 |------------|------|
@@ -65,7 +65,7 @@ plotly
 
 ---
 
-## 📐 Supported Operations
+## Supported Operations
 
 | Operation | Description |
 |-----------|-------------|
@@ -82,7 +82,7 @@ plotly
 
 ---
 
-## 🔧 Functions & Methods Reference
+## Functions & Methods Reference
 
 ### `get_procedure(op, expr_f, expr_g=None)`
 
@@ -142,7 +142,7 @@ The main processing pipeline. Parses user input, performs the selected symbolic 
 
 ---
 
-## 🖥️ UI Layout
+## UI Layout
 
 | Component | Location | Description |
 |-----------|----------|-------------|
@@ -156,7 +156,7 @@ The main processing pipeline. Parses user input, performs the selected symbolic 
 
 ---
 
-## 📝 Usage Examples
+## Usage Examples
 
 Enter these directly into the `f(x)` or `g(x)` input fields:
 
